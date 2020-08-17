@@ -67,7 +67,7 @@ func (s *Server) Start() error {
 		return err
 	}
 
-	log.Printf("memcached server starts on %s", s.addr)
+	log.Printf("Gerdu started memcached server on %s", s.addr)
 	go s.Serve(s.ln)
 	return nil
 }
