@@ -1,4 +1,6 @@
-module github.com/arazmj/gomemcached
+module github.com/rpcxio/gomemcached
+
+replace github.com/rpcxio/gomemcached => github.com/arazmj/gomemcached
 
 go 1.13
 
