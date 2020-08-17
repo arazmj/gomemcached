@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net"
 	"runtime/debug"
 	"sync"
